@@ -1,0 +1,137 @@
+
+/************************************************************************************
+smaller than 1200
+*************************************************************************************/
+@media screen and (max-width: 1200px) {        
+}
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1024px) {
+.center{width:98%;}
+#slider1_container{width:100% !important;max-width:100% !important;overflow:hidden;}
+}
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+.exps_lst li{margin:0 0 20px;}
+/* Devops */
+.devops_blk{padding:0;} .devops_subprcs{display:none;}
+}
+/************************************************************************************
+smaller than 900
+*************************************************************************************/
+@media screen and (max-width: 900px) {
+.google_map{background-size:cover;}
+.cntct_lst{text-align:center;}
+.cntct_lst li{width:32%;text-align:left;}
+.ovwimg_blk{display:none;}
+.ovw_animtn_blk{display:block;text-align:center;width:auto;}
+.animation{text-align:center;}
+/* Security */
+.nserv_lstbox{text-align:center;}
+.nserv_lstbox li{width:49%;padding:0 10px 10px;} .nserv_lstbox li:first-child{padding:0 10px 10px;}
+}
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+@media screen and (max-width: 800px) {
+.chalng,.solutn{margin-top:0 !important;opacity:1 !important;filter:alpha(opacity=100) !important}
+/* Devtest page */
+.dev_lst li{width:48%;padding:0 0 10px;}
+.devtst_pge .desc1{text-align:center;}
+}
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+/* Header Responsive start */
+.hmenu_blk{position:relative;}
+.res_hmenu{background:url('../images/toggle_menu.png') no-repeat;height:30px;width:30px;display:block;position:absolute;right:10px;top:10px;}
+.hmenu_lst{display:none;position:absolute;right:10px;top:48px;background:#eee;width:250px;border:1px solid #ddd;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.hmenu_lst:before{content:"";position:absolute;right:5px;top:-18px;border:9px solid transparent;border-color:transparent transparent #eee transparent;}
+.hmenu_lst li{display:block;margin:0;}
+.hmenu_lst li a{padding:10px;} .hmenu_lst li a:hover{border-bottom-color:transparent;padding:10px;margin:0;background:#f6821d;color:#fff; }
+.hmenu_lst > li {position:relative;}
+.hsubmenu_blk{width:100%;top:0px;left:0;position:relative;}
+.hsubmenu_lst{display:block;width:auto;max-width:none;text-align:left;}
+.hsubmenu_lst > li{float:none;display:block;width:auto;padding:0;border-top:1px solid #f60;}
+.hmenu_lst > li:hover > a, .hmenu_lst > li.active > a{padding:10px;margin:0;background:#f6821d;color:#fff;}
+/* Header Responsive end */
+.lstbox{text-align:center;}
+.lstbox > li{display:inline-block;width:300px;height:auto;margin-bottom:20px;}
+.solutn_lst > li{width:49%;padding:10px}
+.servs_lst > li{width:48%;}
+/* Dev ops */
+.circle .arw{display:none;}
+.devops_lst .circle.ma_lft{margin-left:0;}
+.devops_lst .circle.ma_rht{margin-right:0;}
+/* Contact us */
+.cntct_secin{padding:40px 0;}
+.cntct_lst li{width:49%;}
+/* Infrastructure */
+.ban_title{font:26px/32px Raleway-Bold;}
+.ovw_blk{background:none;} .stack_title{font:28px/32px Raleway;}
+.title1,.ovw_title,.devops_title,.devops_title b{font:26px/32px Raleway;} 
+.infra_baner .ban_title{font:22px/30px Raleway-SemiBold;}
+.ban_subtitle{font:18px/24px Raleway-Light;} 
+.chalng, .solutn{display:block;width:auto;text-align:center;}
+/* Security page */
+.servlst_blk aside,.servlst_blk article{display:block;width:auto;margin:5px 0 0;} .servlst_blk article{margin:20px 0 0;}
+.servlst_tabmenu_lst{margin:0;} .servlst_tabmenu_lst li{padding:10px 0 10px 10px;}
+/* Devtest page */
+.tstsrv_lst li{display:block;width:auto;}
+
+}
+/************************************************************************************
+smaller than 685
+*************************************************************************************/
+@media screen and (max-width: 685px) {
+.center{width:96%;}
+/* Security */
+.nserv_lstbox li{display:block;width:auto;padding:0 0 10px;} .nserv_lstbox li:first-child{padding:0 0 10px;}
+}
+/************************************************************************************
+smaller than 600
+*************************************************************************************/
+@media screen and (max-width: 600px) {   
+
+}
+/************************************************************************************
+smaller than 568
+*************************************************************************************/
+@media screen and (max-width: 568px) {  
+/* Banner */
+.ban_cnt{display:block;width:auto;text-align:center;}
+.ban_title{font:24px/30px Raleway-Bold;}
+.ban_subtitle{padding:10px 0 0;font:20px/26px Raleway-Light;}
+}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+.solutn_lst > li{display:block;width:auto;}
+.servs_lst > li{display:block;width:auto;}
+/* Contact us */
+.cntct_lst li{width:auto;display:block;}
+/* Devtest page */
+.dev_lst li{width:auto;display:block;}
+}
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+.devops_lst li{display:block;width:auto;}
+.empty_devops{display:none;}
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+
+
+}
+
